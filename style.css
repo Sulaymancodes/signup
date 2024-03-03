@@ -1,3 +1,88 @@
+:root{
+    box-sizing: border-box;
+    --primary-color: #FBCAEF;
+    --second-primary-color: #48304D;
+    --secondary-color: #FCB1D7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/fonts/Norse-Bold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
-    background-color: aqua;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'CustomFont', sans-serif;
+}
+.main-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+.img-container{
+    background-color: var(--secondary-color);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 5rem;
+}
+h2,h3{
+    color: var(--second-primary-color);
+}
+.italic{
+    font-style: italic;
+}
+.form-container{
+    position: relative;
+    width: 70%;
+}
+.form-text{
+    height: 25vh;
+    padding: 32px;
+}
+.form-inputs{
+    background-color: #48304D;
+    display: flex;
+    padding: 32px 32px 2px 32px;
+}
+.form-input-one{
+    margin-right: 4rem;
+}
+.submit-button-container{
+    background-color: var(--second-primary-color);
+    padding: 5px 32px 32px 32px;
+    height: 100vh;
+}
+label{
+    color: var(--primary-color);
+    font-size: .7rem;
+    display: block;
+}
+input{
+    padding: 4px 12px;
+    width: 200px;
+    margin-bottom: .8rem;
+}
+#submit-button{
+    padding: .6em .8em;
+    border: none;
+    border-radius: 4px;
+    color: var(--second-primary-color);
+    background-color: var(--primary-color);
+}
+#submit-button:hover{
+    color:var(--primary-color);
+    background-color: #7d5f83;
+}
+p{
+    color: #cb9ebe;
+}
+.login-text{
+    color: #FBCAEF;
+    text-decoration: underline;
 }

@@ -7,6 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="img-container">
+            <img src="images/circus-llama-svgrepo-com.svg" alt="chandelier">
+        </div>
+        <div class="form-container">
+            <div class="form-text">
+                <h2>Welcome to Llama World <br>
+                    Sign up <span class="italic">now</span> to get started.
+                </h2>
+                <h3>You <span class="italic">Know</span> you want to.</h3>
+            </div>
+            <form action="">
+                <div class="form-inputs">
+                    <div class="form-input-one">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="firstname" required>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-input-two">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="lastname" required>
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" id="phone-number" name="phonenumber" required>
+                        <label for="password">CONFIRM PASSWORD</label>
+                        <input type="password" id="password" name="confirm-password" required>
+                    </div>
+                </div>
+                <div class="submit-button-container">
+                    <input type="button" name="create-account" id="submit-button" value="Create Account">
+                    <p>Already have an account? <span class="login-text">Log in</span></p>
+                </div>
+                
+            </form>
+        </div>
+    </div>
 </body>
 </html>
