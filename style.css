@@ -66,6 +66,11 @@ input{
     padding: 4px 12px;
     width: 13rem;
     margin-bottom: .8rem;
+    border: none;
+}
+
+input:focus {
+    outline: none;
 }
 #submit-button{
     padding: .6em .8em;
