@@ -53,6 +53,10 @@ h2,h3{
 .form-input-one{
     margin-right: 4rem;
 }
+.password-error{
+    padding: 32px;
+    color: rgb(194, 51, 51);
+}
 .submit-button-container{
     background-color: var(--second-primary-color);
     padding: 5px 32px 32px 32px;

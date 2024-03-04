@@ -27,17 +27,20 @@
                         <input type="email" id="email" name="email" required>
                         <label for="password">PASSWORD</label>
                         <input type="password" id="password" name="password" minlength="8" maxlength="20" required>
+                        
                     </div>
                     <div class="form-input-two">
                         <label for="lname">LAST NAME</label>
                         <input type="text" id="lname" name="lastname" minlength="2" maxlength="20" required>
                         <label for="phone-number">PHONE NUMBER</label>
                         <input type="tel" id="phone-number" name="phonenumber" required>
-                        <label for="password">CONFIRM PASSWORD</label>
-                        <input type="password" id="password" name="confirm-password" minlength="8" maxlength="20" required>
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password" name="confirm-password" minlength="8" maxlength="20" required>
                     </div>
                 </div>
+                <span class="password-error"></span>
                 <div class="submit-button-container">
+                    
                     <input type="submit" name="create-account" id="submit-button" value="Create Account">
                     <p>Already have an account? <span class="login-text">Log in</span></p>
                 </div>
@@ -45,5 +48,9 @@
             </form>
         </div>
     </div>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
