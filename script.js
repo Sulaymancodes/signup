@@ -5,6 +5,6 @@ const errorMessage = document.querySelector('.password-error');
 
 submitButton.addEventListener('click', () =>{
     if(password.value !== confirmPassword.value){
-        errorMessage.textContent = '*password do not match';
+        confirmPassword.setCustomValidity('*password do not match');
     }
 })
